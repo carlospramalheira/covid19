@@ -7,7 +7,7 @@ Independent project to gather portuguese COVID-19 data and share STATA scripts t
 
 
 
-### STATA scripts
+### STATA scripts to download currently available data
 Code to download and setup the latest <b>Portuguese</b> data:
 ``` 
 cd "C:\Users\Carlos\COVID19\" // choose your local working folder
