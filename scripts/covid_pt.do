@@ -5,7 +5,7 @@ clear all
 /*
 // ------------------------------- PT ------------------------------------
 
-STATA .do file to import COVID19 data from repositories: ECDC, John Hopkins University, DGS (Peralta Santos)
+STATA .do file to import COVID19 data.
 
 Authors:
 	Carlos Pinhão Ramalheira, Internal Medicine, MD
@@ -25,5 +25,11 @@ else if _rc != 0 {
 noi di "Portuguese raw data not available"
 }
 
+save "pt_raw.dta", replace
+
 // ------------------------------------------------------------------------
+
+
+
+
 }
