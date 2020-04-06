@@ -5,6 +5,8 @@ Independent project to gather portuguese COVID-19 data and share STATA scripts t
 
 ### Databases
 
+* <b>European Centre for Disease Prevention and Control</b> (situation update worldwide): confirmed cases, deaths and population by country and day of report
+* <b>John Hopkins University Repository</b> (daily reports): confirmed cases and deaths by country (region level data available for some countries) and day of report
 
 
 ### STATA scripts to download currently available data
