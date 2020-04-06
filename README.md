@@ -2,7 +2,6 @@
 Independent project to gather portuguese COVID-19 data and share STATA scripts to run analysis and draw graphs.
 
 ## Contents:
-* Oficial Reports
 * Databases
 * STATA scripts
 * Graphs
