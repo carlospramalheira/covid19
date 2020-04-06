@@ -2,15 +2,15 @@
 Independent project to gather portuguese COVID-19 data and share STATA scripts to run analysis and draw graphs.
 
 ## Contents:
-* Databases
-* STATA scripts
-* Graphs
+### Databases
+### STATA scripts
+### Graphs
 
 ## Data Sources:
-Portuguese Oficial Reports
+### Portuguese Oficial Reports
 * [Directore-General of Health](https://covid19.min-saude.pt/relatorio-de-situacao/)
 
-World Data Repository by Johns Hopkins CSSE:
+### World Data Repository by Johns Hopkins CSSE:
 * [World Health Organization (WHO)](https://www.who.int/)
 * [DXY.cn. Pneumonia. 2020.](http://3g.dxy.cn/newh5/view/pneumonia)
 * [BNO News](https://bnonews.com/index.php/2020/02/the-latest-coronavirus-cases/)
