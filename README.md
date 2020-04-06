@@ -2,15 +2,14 @@
 Independent project to gather portuguese COVID-19 data and share STATA scripts to download data, run analysis and draw graphs.
 
 ## Contents:
-Databases
-STATA scripts
-
-<b>STATA code to download and prepare the latest portuguese data:</b>
+### STATA scripts
+STATA code to download and prepare the latest <b>portuguese data</b>:
 ``` 
-cd "C:\Users\Carlos\Dropbox\Pater et Filius\COVID19\Stata\" <br>
+cd "C:\Users\Carlos\Dropbox\Pater et Filius\COVID19\Stata\"
 do "https://github.com/carlospramalheira/covid19/raw/master/scripts/covid_pt.do"
 ```
 
+Databases
 Graphs
 
 ## Data Sources:
