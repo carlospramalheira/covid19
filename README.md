@@ -13,16 +13,31 @@ Independent project to gather portuguese COVID-19 data and share STATA scripts t
 
 ### Variable description
 
+Raw variables available in daily reports:
 ```
-    "contacts_under_survailance"
-    "cases_all"
-    "cases_resultpending"
-    "cases_unconfirmed"	
-    "cases_confirmed"
-    "inpatient"
-    "icu"
-    "recovered"
-    "deaths"
+    "contacts_under_survailance": population who came into contact with known positive cases and are under survailance by the authorities
+    "cases_all": all suspected cases according to DGS ("Todos os casos suspeitos"). = confirmed cases + unconfirmed cases + cases pending test result
+    "cases_resultpending": suspected cases waiting for test result
+    "cases_unconfirmed": not confirmed cases
+    "cases_confirmed": confirmed COVID-19 cases
+    "inpatient": COVID-19 cases admitted into hospital care
+    "icu": COVID-19 cases addmited into intensive care units
+    "recovered": recovered COVID-19 cases
+    "deaths": deaths by COVID-19
+    
+ALL RAW VARIABLES ARE CUMULATIVE
+```
+
+Variables obtained from raw data or introduced to the database:
+```
+    "pop": portuguese population estimate
+    "cov_rate": diseare rate = confirmed cases * 100.000 / population
+    "lethal_rate": lethality rate = deaths * 100.000 / confirmed cases
+    "mortality_rate": mortailty rate = deaths * 100.000 / population
+
+    "*_new": any variable with this ending has a count of daily new cases
+    "*_cum": any variable with this ending has a cumulative sum of known cases to date
+    "*_pct": any variable with this ending is a percentual change from the previous day
 ```
 
 ### STATA scripts to download currently available data
