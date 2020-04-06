@@ -25,19 +25,23 @@ Raw variables available in daily reports:
     "recovered": recovered COVID-19 cases
     "deaths": deaths by COVID-19
     
-ALL RAW VARIABLES ARE CUMULATIVE
+ALL RAW VARIABLES ARE CUMULATIVE except inpatient and icu
 ```
 
 Variables obtained from raw data or introduced to the database:
 ```
     "pop": portuguese population estimate
-    "cov_rate": diseare rate = confirmed cases * 100.000 / population
+    "cov_rate": disease rate = confirmed cases * 100.000 / population
     "lethal_rate": lethality rate = deaths * 100.000 / confirmed cases
     "mortality_rate": mortailty rate = deaths * 100.000 / population
 
     "*_new": any variable with this ending has a count of daily new cases
     "*_cum": any variable with this ending has a cumulative sum of known cases to date
     "*_pct": any variable with this ending is a percentual change from the previous day
+    
+    "days": number of days from the diagnosis of the first COVID-19 case
+    "days_rt": number of days from disease rate greater or equal to 1/100.000 hab.
+    "days_mrt": number of days from mortality rate greater or equal to 1/100.000 hab.
 ```
 
 ### STATA scripts to download currently available data
