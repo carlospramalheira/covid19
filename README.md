@@ -25,7 +25,7 @@ Raw variables available in daily reports:
     "recovered": recovered COVID-19 cases
     "deaths": deaths by COVID-19
     
-ALL RAW VARIABLES ARE CUMULATIVE except inpatient and icu
+ALL RAW VARIABLES ARE CUMULATIVE except contacts, inpatient and icu
 ```
 
 Variables obtained from raw data or introduced to the database:
