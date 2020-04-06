@@ -35,7 +35,7 @@ Variables obtained from raw data or introduced to the database:
     "lethal_rate": lethality rate = deaths * 100.000 / confirmed cases
     "mortality_rate": mortailty rate = deaths * 100.000 / population
 
-    "*_chg": any variable with this ending is an absolute change from the previous day, new cases when applicable
+    "*_new": any variable with this ending is an absolute change from the previous day, new cases when applicable
     "*_pct": any variable with this ending is a percentual change from the previous day
     
     "days": number of days from the diagnosis of the first COVID-19 case
