@@ -5,19 +5,19 @@ Independent project to gather portuguese COVID-19 data and share STATA scripts t
 ### STATA scripts
 Code to download and prepare the latest <b>portuguese data</b>:
 ``` 
-cd "C:\Users\Carlos\COVID19\" // chose a folder of your own ending with a backslash
+cd "C:\Users\Carlos\COVID19\" // choose your local working folder
 do "https://github.com/carlospramalheira/covid19/raw/master/scripts/covid_pt.do"
 ```
 
 Code to download and prepare the latest <b>ECDC data</b>:
 ``` 
-cd "C:\Users\Carlos\COVID19\" // chose a folder of your own ending with a backslash
+cd "C:\Users\Carlos\COVID19\" // choose your local working folder
 do "https://github.com/carlospramalheira/covid19/raw/master/scripts/covid_ecdc.do"
 ```
 
 Code to download and prepare the latest <b>John Hopkins University data</b>:
 ``` 
-cd "C:\Users\Carlos\COVID19\" // chose a folder of your own ending with a backslash
+cd "C:\Users\Carlos\COVID19\" // choose your local working folder
 do "https://github.com/carlospramalheira/covid19/raw/master/scripts/covid_jhu.do"
 ```
 
