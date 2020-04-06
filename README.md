@@ -13,6 +13,7 @@ Independent project to gather portuguese COVID-19 data and share STATA scripts t
 
 ### Variable description
 
+```
     "contacts_under_survailance"
     "cases_all"
     "cases_resultpending"
@@ -22,6 +23,7 @@ Independent project to gather portuguese COVID-19 data and share STATA scripts t
     "icu"
     "recovered"
     "deaths"
+```
 
 ### STATA scripts to download currently available data
 Code to download and setup the latest <b>Portuguese</b> data:
@@ -42,11 +44,13 @@ cd "C:\Users\Carlos\COVID19\" // choose your local working folder
 do "https://github.com/carlospramalheira/covid19/raw/master/scripts/covid_jhu.do"
 ```
 
-Code to download and setup <b>ALL databases</b>:
+Code to download and setup <b>ALL DATABASES</b>:
 ``` 
 cd "C:\Users\Carlos\COVID19\" // choose your local working folder
 do "https://github.com/carlospramalheira/covid19/raw/master/scripts/covid.do"
 ```
+
+We strongly advice to download raw data using STATA. Alternatively you can download _.csv_ files from the _**datasets**_ folder above to use with R, Microsoft Excel or other program. Please bear in mind: these files might not be uptdate as oftenly!
 
 ## Data Sources:
 ### Portuguese Oficial Reports
