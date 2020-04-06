@@ -29,11 +29,12 @@ Graphs
 * [WorldoMeters](https://www.worldometers.info/coronavirus/)
 
 ## Authors:
-* Carlos P. Ramalheira
-* Carlos Ramalheira
+* Carlos P. Ramalheira, MD
+* Carlos Ramalheira, MD
 
 ## Contact Us:
 * Email: carlos.ramalheira@gmail.com
+(Please contact us if you are willing to become a collaborator in this project)
 
 ## Terms of Use:
 This GitHub repository and its contents herein, including all data, mapping, and analysis, copyright rights reserved, is provided to the public strictly for educational and academic research purposes. The Website relies upon publicly available data from multiple sources, that do not always agree. Reliance on the Website for medical guidance or use of the Website in commerce is strictly prohibited.
