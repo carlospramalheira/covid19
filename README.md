@@ -6,9 +6,10 @@ Databases
 STATA scripts
 
 <b>STATA code to download and prepare the latest portuguese data:</b>
-<source> 
+``` 
 cd "C:\Users\Carlos\Dropbox\Pater et Filius\COVID19\Stata\" <br>
-do "https://github.com/carlospramalheira/covid19/raw/master/scripts/covid_pt.do"</source>
+do "https://github.com/carlospramalheira/covid19/raw/master/scripts/covid_pt.do"
+```
 
 Graphs
 
