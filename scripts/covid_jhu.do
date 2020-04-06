@@ -56,7 +56,7 @@ cap replace fips = ïfips if fips==""
 cap drop ïfips 
 
 local today : display %tdCY-N-D date("`c(current_date)'", "DMY")
-save `today'-jhu.dta , replace
+save "JHU-COVID19-worldwide-`today'.dta" , replace
 noi di "!" , _newline
 noi di "`today' JHU data imported"
 
