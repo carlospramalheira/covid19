@@ -1,4 +1,4 @@
-day,month,cases_all,cases_confirmed,cases_unconfirmed,cases_resultpending,recovered,deaths,contacts_under_survailance,cases_confirmed_norte,deaths_norte,cases_confirmed_centro,deaths_centro,cases_confirmed_lvt,deaths_lvt,cases_confirmed_alentejo,deaths_alentejo,cases_confirmed_algarve,deaths_algarve,cases_confirmed_acores,deaths_acores,cases_confirmed_madeira,deaths_madeira,cc_1_1,cc_1_2,cc_1_3,cc_1_4,cc_1_5,cc_1_6,cc_1_7,cc_1_8,cc_1_9,cc_0_1,cc_0_2,cc_0_3,cc_0_4,cc_0_5,cc_0_6,cc_0_7,cc_0_8,cc_0_9,inpatient,icu,d_1_1,d_1_2,d_1_3,d_1_4,d_1_5,d_1_6,d_1_7,d_1_8,d_1_9,d_0_1,d_0_2,d_0_3,d_0_4,d_0_5,d_0_6,d_0_7,d_0_8,d_0_9
+day,month,cases_all,cases_confirmed,cases_unconfirmed,cases_resultpending,recovered,deaths,contacts,cases_confirmed_norte,deaths_norte,cases_confirmed_centro,deaths_centro,cases_confirmed_lvt,deaths_lvt,cases_confirmed_alentejo,deaths_alentejo,cases_confirmed_algarve,deaths_algarve,cases_confirmed_acores,deaths_acores,cases_confirmed_madeira,deaths_madeira,cc_1_1,cc_1_2,cc_1_3,cc_1_4,cc_1_5,cc_1_6,cc_1_7,cc_1_8,cc_1_9,cc_0_1,cc_0_2,cc_0_3,cc_0_4,cc_0_5,cc_0_6,cc_0_7,cc_0_8,cc_0_9,inpatient,icu,d_1_1,d_1_2,d_1_3,d_1_4,d_1_5,d_1_6,d_1_7,d_1_8,d_1_9,d_0_1,d_0_2,d_0_3,d_0_4,d_0_5,d_0_6,d_0_7,d_0_8,d_0_9
 31,1,1,0,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,
 1,2,2,0,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,
 4,2,3,0,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,
@@ -18,7 +18,7 @@ day,month,cases_all,cases_confirmed,cases_unconfirmed,cases_resultpending,recove
 27,2,51,0,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,
 28,2,59,0,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,
 29,2,70,0,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,
-1,3,85,2,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,0,,,,,,,,,,,,,,,,,,
+1,3,85,0,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,
 2,3,101,4,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,0,,,,,,,,,,,,,,,,,,
 3,3,117,6,,,0,0,81,3,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,2,2,1,0,0,0,0,0,0,0,1,0,0,0,0,6,0,,,,,,,,,,,,,,,,,,
 4,3,147,9,,,0,0,213,5,0,1,0,3,0,0,0,0,0,0,0,0,0,0,0,0,2,3,1,2,0,0,0,0,0,0,1,0,0,0,0,9,0,,,,,,,,,,,,,,,,,,
