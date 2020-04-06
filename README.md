@@ -1,4 +1,4 @@
-# COVID-19 Portugal
+# [COVID-19 Portugal](https://github.com/carlospramalheira/covid19)
 Independent project to gather portuguese COVID-19 data and share STATA scripts to download data, run analysis and draw graphs.
 
 ## Contents:
