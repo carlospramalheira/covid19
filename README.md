@@ -5,7 +5,7 @@ Independent project to gather portuguese COVID-19 data and share STATA scripts t
 
 ### Databases
 
-* <b>Portuguese Directore-General of Health</b> (DGS) nationwide daily data: _contacts under survailance, suspected cases, unconfirmed cases, cases pending test result, confirmed cases, inpatient, admitted to ICU unit, recovered cases and deaths_.
+* <b>Portuguese Directore-General of Health</b> (DGS) nationwide daily data: _contacts under survailance, suspected cases, unconfirmed cases, cases pending test result, confirmed cases, inpatient, admitted to intensive care units, recovered cases and deaths_.
 * <b>Portuguese Directore-General of Health</b> (DGS) nationwide daily data: _confirmed cases and deaths by sex, age and day of report_. 
 * <b>Portuguese Directore-General of Health</b> (DGS) regional level data: _confirmed cases and deaths by NUTS2 and day of report_.
 * <b>European Centre for Disease Prevention and Control</b> (situation update worldwide): _confirmed cases, deaths and population by country and day of report_.
