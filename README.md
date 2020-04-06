@@ -25,7 +25,7 @@ Raw variables available in daily reports:
     "recovered": recovered COVID-19 cases
     "deaths": deaths by COVID-19
     
-ALL RAW VARIABLES ARE CUMULATIVE except contacts, inpatient and icu
+MOST RAW VARIABLES ARE CUMULATIVE
 ```
 
 Variables obtained from raw data or introduced to the database:
@@ -36,7 +36,6 @@ Variables obtained from raw data or introduced to the database:
     "mortality_rate": mortailty rate = deaths * 100.000 / population
 
     "*_new": any variable with this ending has a count of daily new cases
-    "*_cum": any variable with this ending has a cumulative sum of known cases to date
     "*_pct": any variable with this ending is a percentual change from the previous day
     
     "days": number of days from the diagnosis of the first COVID-19 case
