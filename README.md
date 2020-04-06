@@ -5,13 +5,11 @@ Independent project to gather portuguese COVID-19 data and share STATA scripts t
 
 ### Databases
 
-* <b>Portuguese Directore-General of Health</b> (DGS) nationwide daily data: contacts under survailance, suspected cases, unconfirmed cases, cases pending test result, confirmed cases, inpatient, admitted to ICU unit, recovered cases and deaths.
-* <b>Portuguese Directore-General of Health</b> (DGS) nationwide daily data:
-    Confirmed cases and deaths by sex, age and day of report
-* <b>Portuguese Directore-General of Health</b> (DGS) regional level data:
-    Confirmed cases and deaths by NUTS2 and day of report
-* <b>European Centre for Disease Prevention and Control</b> (situation update worldwide): confirmed cases, deaths and population by country and day of report
-* <b>John Hopkins University Repository</b> (daily reports): confirmed cases and deaths by country (region level data available for some countries) and day of report
+* <b>Portuguese Directore-General of Health</b> (DGS) nationwide daily data: _contacts under survailance, suspected cases, unconfirmed cases, cases pending test result, confirmed cases, inpatient, admitted to ICU unit, recovered cases and deaths_.
+* <b>Portuguese Directore-General of Health</b> (DGS) nationwide daily data: _confirmed cases and deaths by sex, age and day of report_. 
+* <b>Portuguese Directore-General of Health</b> (DGS) regional level data: _confirmed cases and deaths by NUTS2 and day of report_.
+* <b>European Centre for Disease Prevention and Control</b> (situation update worldwide): _confirmed cases, deaths and population by country and day of report_.
+* <b>John Hopkins University Repository</b> (daily reports): _confirmed cases and deaths by country (region level data available for some countries) and day of report_.
 
 ### Variable description
 
