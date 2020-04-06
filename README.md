@@ -1,6 +1,12 @@
 # COVID-19 Portugal
 Independent project to gather portuguese COVID-19 data and share STATA scripts to run analysis and draw graphs.
 
+## Contents:
+* Oficial Reports
+* Databases
+* STATA scripts
+* Graphs
+
 ## Data Sources:
 Portuguese Oficial Reports
 * [Directore-General of Health](https://covid19.min-saude.pt/relatorio-de-situacao/)
