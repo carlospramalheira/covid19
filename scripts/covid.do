@@ -1,4 +1,3 @@
-qui{
 set more off
 clear all
  
@@ -18,5 +17,3 @@ do "https://github.com/carlospramalheira/covid19/raw/master/scripts/covid_ecdc.d
 do "https://github.com/carlospramalheira/covid19/raw/master/scripts/covid_jhu.do"
 
 // ------------------------------------------------------------------------
-clear
-}
