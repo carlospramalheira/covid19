@@ -53,6 +53,7 @@ gen mortality_rate = deaths * 100000/pop
 
 save "PT_COVID_TimeSeries.dta" , replace
 export excel using "PT_COVID_TimeSeries.xls", firstrow(variables) replace
+noi di "Portuguese time series database compiled"
 
 // ------------------------------------------------------------------------
 
@@ -95,6 +96,7 @@ order date sex sex_nr sex_label age_gr age_gr_nr age_gr_label cases_confirmed ca
 
 save "PT_COVID_Confirmed_Deaths_by_sexage.dta" , replace
 export excel using "PT_COVID_Confirmed_Deaths_by_sexage.xls", firstrow(variables) replace
+noi di "Portuguese cases and deaths by sex and age database compiled"
 
 // ------------------------------------------------------------------------
 
@@ -108,6 +110,7 @@ drop if deaths==.
 
 save "PT_COVID_Confirmed_Deaths_by_nuts2.dta" , replace
 export excel using "PT_COVID_Confirmed_Deaths_by_nuts2.xls", firstrow(variables) replace
+noi di "Portuguese cases and deaths by NUTS2 database compiled"
 
 // ------------------------------------------------------------------------
 
