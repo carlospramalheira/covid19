@@ -116,5 +116,12 @@ noi di "Portuguese cases and deaths by NUTS2 database compiled"
 
 rm "pt_raw.dta"
 
+local database = "PT_COVID_Confirmed_Deaths_by_nuts2 PT_COVID_Confirmed_Deaths_by_sexage PT_COVID_TimeSeries"
+foreach d of local database {
+	use "`d'.dta" , clear
+	export excel using "`d'.xls" , firstrow(variables) replace
+	export delimited using "`d'.csv" , replace
+	}
+
 }
 }
