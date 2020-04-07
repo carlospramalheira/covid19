@@ -52,6 +52,7 @@ gen lethal_rate = deaths * 100000/ cases_confirmed
 gen mortality_rate = deaths * 100000/pop
 
 save "PT_COVID_TimeSeries.dta" , replace
+export excel using "PT_COVID_TimeSeries.xls", firstrow(variables) replace
 
 // ------------------------------------------------------------------------
 
@@ -93,6 +94,7 @@ labmask age_gr , values (age_gr_label)
 order date sex sex_nr sex_label age_gr age_gr_nr age_gr_label cases_confirmed cases_confirmed_new deaths deaths_new
 
 save "PT_COVID_Confirmed_Deaths_by_sexage.dta" , replace
+export excel using "PT_COVID_Confirmed_Deaths_by_sexage.xls", firstrow(variables) replace
 
 // ------------------------------------------------------------------------
 
@@ -105,6 +107,7 @@ rename deaths_ deaths
 drop if deaths==.
 
 save "PT_COVID_Confirmed_Deaths_by_nuts2.dta" , replace
+export excel using "PT_COVID_Confirmed_Deaths_by_nuts2.xls", firstrow(variables) replace
 
 // ------------------------------------------------------------------------
 
