@@ -1,5 +1,5 @@
 # [COVID-19: Portugal](https://github.com/carlospramalheira/covid19)
-Independent project to gather portuguese COVID-19 data and share STATA scripts to download data, run analysis and draw graphs.
+Independent project to gather portuguese COVID-19 data and share STATA scripts to download data, run analysis and draw graphs. Last update: 06/04/2020.
 
 ## Contents:
 
@@ -12,6 +12,8 @@ Independent project to gather portuguese COVID-19 data and share STATA scripts t
 * <b>John Hopkins University Repository</b> (daily reports): _confirmed cases and deaths by country (region level data available for some countries) and day of report_.
 
 ### Variable description
+
+In portuguese datasets the report date refers to data from the previous day. For example, the report from 07/04 has 06/04 data.
 
 Raw variables available in daily reports:
 ```
