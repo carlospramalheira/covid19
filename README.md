@@ -103,4 +103,4 @@ We strongly advice to download raw data using STATA. Alternatively you can downl
 (Please contact us if you are willing to become a collaborator in this project)
 
 ## Terms of Use:
-This GitHub repository and its contents herein, including all data, mapping, and analysis, copyright rights reserved, is provided to the public strictly for educational and academic research purposes. The Website relies upon publicly available data from multiple sources, that do not always agree. Reliance on the Website for medical guidance or use of the Website in commerce is strictly prohibited.
+This GitHub repository and its contents herein, including all data and analysis, copyright rights reserved, is provided to the public strictly for educational and academic research purposes. The Website relies upon publicly available data from multiple sources, that do not always agree. Reliance on the Website for medical guidance or use of the Website in commerce is strictly prohibited.
