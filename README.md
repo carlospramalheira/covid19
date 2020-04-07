@@ -17,7 +17,7 @@ In portuguese datasets the report date refers to data from the previous day. For
 
 Raw variables available in daily reports:
 ```
-    "contacts_under_survailance": population who came into contact with known positive cases and are under survailance by the authorities
+    "contacts": population who came into contact with known positive cases and are under survailance by the authorities
     "cases_all": all suspected cases according to DGS ("Todos os casos suspeitos"). = confirmed cases + unconfirmed cases + cases pending test result
     "cases_resultpending": suspected cases waiting for test result
     "cases_unconfirmed": not confirmed cases
