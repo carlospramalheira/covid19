@@ -5,9 +5,9 @@ Independent project to gather portuguese COVID-19 data and share STATA scripts t
 
 ### Databases
 
-* <b>Portuguese Directorate-General of Health</b> (DGS) nationwide daily data: _contacts under survailance, suspected cases, unconfirmed cases, cases pending test result, confirmed cases, inpatient, admitted to intensive care units, recovered cases and deaths_.
-* <b>Portuguese Directorate-General of Health</b> (DGS) nationwide daily data: _confirmed cases and deaths by sex, age and day of report_. 
-* <b>Portuguese Directorate-General of Health</b> (DGS) regional level data: _confirmed cases and deaths by NUTS2 and day of report_.
+* <b>Portuguese General Directorate of Health</b> (DGS) nationwide daily data: _contacts under survailance, suspected cases, unconfirmed cases, cases pending test result, confirmed cases, inpatient, admitted to intensive care units, recovered cases and deaths_.
+* <b>Portuguese General Directorate of Health</b> (DGS) nationwide daily data: _confirmed cases and deaths by sex, age and day of report_. 
+* <b>Portuguese General Directorate of Health</b> (DGS) regional level data: _confirmed cases and deaths by NUTS2 and day of report_.
 * <b>European Centre for Disease Prevention and Control</b> (situation update worldwide): _confirmed cases, deaths and population by country and day of report_.
 * <b>John Hopkins University Repository</b> (daily reports): _confirmed cases and deaths by country (region level data available for some countries) and day of report_.
 
@@ -72,7 +72,7 @@ We strongly advice to download raw data using STATA. Alternatively you can downl
 
 ## Data Sources:
 ### Portuguese Oficial Reports
-* [Directorate-General of Health](https://covid19.min-saude.pt/relatorio-de-situacao/)
+* [General Directorate of Health](https://covid19.min-saude.pt/relatorio-de-situacao/)
 
 ### World Data Repository by Johns Hopkins CSSE:
 * [World Health Organization (WHO)](https://www.who.int/)
