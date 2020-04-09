@@ -42,7 +42,7 @@ drop cases_confirmed_norte- cc_0_9 d_1_1- d_0_9
 local var_n = "cases_all cases_confirmed cases_unconfirmed cases_resultpending recovered deaths contacts inpatient icu"
 foreach v of local var_n {
 	gen `v'_new = `v' - L.`v' if cases_confirmed >0
-	gen `v'_pct = (`v' - L.`v')*100/L.`v' if cases_confirmed >0
+	gen `v'_pct = ((`v' - L.`v')*100)/L.`v' if cases_confirmed >0
 	gen `v'_new_pct = (`v'_new - L.`v'_new)/L.`v'_new if cases_confirmed >0
 	}
 gen pop = 10276617
