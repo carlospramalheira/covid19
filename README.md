@@ -70,7 +70,7 @@ cd "C:\Users\Carlos\COVID19\" // choose your local working folder
 do "https://github.com/carlospramalheira/covid19/raw/master/scripts/covid.do"
 ```
 
-We strongly advice to download raw data using STATA. Alternatively you can download _.csv_ files from the _**datasets**_ folder above to use with R, Microsoft Excel or other program. Please bear in mind: these files might not be uptdate as oftenly!
+We strongly advice to download raw data using STATA. Alternatively you can download _.csv_ files from the _**datasets**_ folder above to use with R, Microsoft Excel or other program. Please bear in mind: these files might not be uptdated as oftenly!
 
 ## Data Sources:
 ### Portuguese Oficial Reports
