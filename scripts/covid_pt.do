@@ -25,6 +25,8 @@ else if _rc != 0 {
 noi di "Portuguese raw data not available"
 }
 
+export delimited "pt_raw.csv", replace
+export excel using "pt_raw.xls", firstrow(variables) replace
 save "pt_raw.dta", replace
 
 // ------------------------------------------------------------------------
@@ -35,7 +37,10 @@ format %tdCCYY-NN-DD date
 tsset date , d
 tsfill
 drop day month year
+
 save "pt_raw.dta", replace
+* export delimited "pt_raw.csv", replace
+* export excel using "pt_raw.xls", firstrow(variables) replace
 
 drop cases_confirmed_norte- cc_0_9 d_1_1- d_0_9
 
@@ -52,7 +57,9 @@ gen lethal_rate = deaths * 100000/ cases_confirmed
 gen mortality_rate = deaths * 100000/pop
 
 save "PT_COVID_TimeSeries.dta" , replace
-export excel using "PT_COVID_TimeSeries.xls", firstrow(variables) replace
+* export excel using "PT_COVID_TimeSeries.xls", firstrow(variables) replace
+* export delimited "PT_COVID_TimeSeries.csv", replace
+
 noi di "Portuguese time series database compiled"
 
 // ------------------------------------------------------------------------
@@ -95,7 +102,9 @@ labmask age_gr , values (age_gr_label)
 order date sex sex_nr sex_label age_gr age_gr_nr age_gr_label cases_confirmed cases_confirmed_new deaths deaths_new
 
 save "PT_COVID_Confirmed_Deaths_by_sexage.dta" , replace
-export excel using "PT_COVID_Confirmed_Deaths_by_sexage.xls", firstrow(variables) replace
+* export excel using "PT_COVID_Confirmed_Deaths_by_sexage.xls", firstrow(variables) replace
+* export delimited "PT_COVID_Confirmed_Deaths_by_sexage.csv", replace
+
 noi di "Portuguese cases and deaths by sex and age database compiled"
 
 // ------------------------------------------------------------------------
@@ -109,7 +118,9 @@ rename deaths_ deaths
 drop if deaths==.
 
 save "PT_COVID_Confirmed_Deaths_by_nuts2.dta" , replace
-export excel using "PT_COVID_Confirmed_Deaths_by_nuts2.xls", firstrow(variables) replace
+* export excel using "PT_COVID_Confirmed_Deaths_by_nuts2.xls", firstrow(variables) replace
+* export delimited "PT_COVID_Confirmed_Deaths_by_nuts2.csv", replace
+
 noi di "Portuguese cases and deaths by NUTS2 database compiled"
 
 // ------------------------------------------------------------------------
