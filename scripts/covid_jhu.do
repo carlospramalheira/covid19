@@ -59,8 +59,8 @@ noi di "!" , _newline
 local today : display %tdCY-N-D date("`c(current_date)'", "DMY")
 export delimited "JHU-COVID19-worldwide-`today'.csv", replace
 save "JHU-COVID19-worldwide-`today'.dta" , replace
-noi di "`today' JHU data imported"
 export excel using "JHU-COVID19-worldwide-`today'.xlsx", firstrow(variables) replace
+noi di "`today' JHU data imported"
 
 // ------------------------------------------------------------------------
 
