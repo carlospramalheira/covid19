@@ -23,12 +23,14 @@ if _rc==0 {
 	import excel "https://www.ecdc.europa.eu/sites/default/files/documents/COVID-19-geographic-disbtribution-worldwide-`ecdc_today'.xlsx" , firstrow clear
 	save "ECDC-COVID19-worldwide-`ecdc_today'.dta" , replace
 	noi di "`ecdc_today' ECDC data imported"
+	local file =1
 }
 
 else if _rc != 0 {
 	import excel "https://www.ecdc.europa.eu/sites/default/files/documents/COVID-19-geographic-disbtribution-worldwide-`ecdc_yesterday'.xlsx" , firstrow clear
 	save "ECDC-COVID19-worldwide-`ecdc_yesterday'.dta" , replace
 	noi di "`ecdc_today' ECDC data not available   ||   `ecdc_yesterday' ECDC data imported"
+	local file =2
 }
 
 format %tdCCYY-NN-DD dateRep
@@ -42,7 +44,18 @@ sort country date
 by country : ge confirmed=sum( confirmed_new )
 by country : ge death=sum( death_new )
 order countriesAndTerritories countryterritoryCode geoId country date day month year confirmed confirmed_new death death_new pop
-save , replace
+
+if `file'==1 {
+	save "ECDC-COVID19-worldwide-`ecdc_today'.dta" , replace
+	export delimited "ECDC-COVID19-worldwide-`ecdc_today'.csv", replace
+	export excel using "ECDC-COVID19-worldwide-`ecdc_today'.xls", firstrow(variables) replace
+	}
+if `file'==2 {
+	save "ECDC-COVID19-worldwide-`ecdc_yesterday'.dta" , replace
+	export delimited "ECDC-COVID19-worldwide-`ecdc_yesterday'.csv", replace
+	export excel using "ECDC-COVID19-worldwide-`ecdc_yesterday'.xls", firstrow(variables) replace
+	}
+
 
 // ------------------------------------------------------------------------
 
