@@ -54,13 +54,13 @@ cap replace provincestate = ïprovincestate if provincestate==""
 cap drop ïprovincestate 
 cap replace fips = ïfips if fips==""
 cap drop ïfips 
+noi di "!" , _newline
 
 local today : display %tdCY-N-D date("`c(current_date)'", "DMY")
 save "JHU-COVID19-worldwide-`today'.dta" , replace
+noi di "`today' JHU data imported"
 export delimited "JHU-COVID19-worldwide-`today'.csv", replace
 export excel using "JHU-COVID19-worldwide-`today'.xls", firstrow(variables) replace
-noi di "!" , _newline
-noi di "`today' JHU data imported"
 
 // ------------------------------------------------------------------------
 
