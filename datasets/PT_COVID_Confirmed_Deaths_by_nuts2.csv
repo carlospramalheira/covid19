@@ -96,6 +96,7 @@ date,nut,cases_confirmed,deaths,recuperados_arsnorte,recuperados_arscentro,recup
 03-06-2020,acores,138,15,,,,,,,,0,0
 04-06-2020,acores,138,15,,,,,,,,0,0
 05-06-2020,acores,140,15,,,,,,,,0,0
+06-06-2020,acores,141,15,,,,,,,,0,0
 01-03-2020,alentejo,0,0,,,,,,,,,
 02-03-2020,alentejo,0,0,,,,,,,,,
 03-03-2020,alentejo,0,0,,,,,,,,,
@@ -193,6 +194,7 @@ date,nut,cases_confirmed,deaths,recuperados_arsnorte,recuperados_arscentro,recup
 03-06-2020,alentejo,260,1,,,,,,,,0,0
 04-06-2020,alentejo,262,1,,,,,,,,0,0
 05-06-2020,alentejo,263,1,,,,,,,,0,0
+06-06-2020,alentejo,266,1,,,,,,,,0,0
 01-03-2020,algarve,0,0,,,,,,,,,
 02-03-2020,algarve,0,0,,,,,,,,,
 03-03-2020,algarve,0,0,,,,,,,,,
@@ -290,6 +292,7 @@ date,nut,cases_confirmed,deaths,recuperados_arsnorte,recuperados_arscentro,recup
 03-06-2020,algarve,376,15,,,,,,,,0,0
 04-06-2020,algarve,376,15,,,,,,,,0,0
 05-06-2020,algarve,380,15,,,,,,,,0,0
+06-06-2020,algarve,382,15,,,,,,,,0,0
 01-03-2020,centro,0,0,,,,,,,,,
 02-03-2020,centro,0,0,,,,,,,,,
 03-03-2020,centro,1,0,,,,,,,,,
@@ -387,6 +390,7 @@ date,nut,cases_confirmed,deaths,recuperados_arsnorte,recuperados_arscentro,recup
 03-06-2020,centro,3765,240,,,,,,,,0,0
 04-06-2020,centro,3770,240,,,,,,,,0,0
 05-06-2020,centro,3789,244,,,,,,,,0,0
+06-06-2020,centro,3799,244,,,,,,,,0,0
 01-03-2020,lvt,0,0,,,,,,,,,
 02-03-2020,lvt,0,0,,,,,,,,,
 03-03-2020,lvt,1,0,,,,,,,,,
@@ -484,6 +488,7 @@ date,nut,cases_confirmed,deaths,recuperados_arsnorte,recuperados_arscentro,recup
 03-06-2020,lvt,11828,380,,,,,,,,0,0
 04-06-2020,lvt,12137,383,,,,,,,,0,0
 05-06-2020,lvt,12473,387,,,,,,,,0,0
+06-06-2020,lvt,12818,395,,,,,,,,0,0
 01-03-2020,madeira,0,0,,,,,,,,,
 02-03-2020,madeira,0,0,,,,,,,,,
 03-03-2020,madeira,0,0,,,,,,,,,
@@ -581,6 +586,7 @@ date,nut,cases_confirmed,deaths,recuperados_arsnorte,recuperados_arscentro,recup
 03-06-2020,madeira,90,0,,,,,,,,0,0
 04-06-2020,madeira,90,0,,,,,,,,0,0
 05-06-2020,madeira,90,0,,,,,,,,0,0
+06-06-2020,madeira,90,0,,,,,,,,0,0
 01-03-2020,norte,0,0,,,,,,,,,
 02-03-2020,norte,2,0,,,,,,,,,
 03-03-2020,norte,2,0,,,,,,,,,
@@ -678,3 +684,4 @@ date,nut,cases_confirmed,deaths,recuperados_arsnorte,recuperados_arscentro,recup
 03-06-2020,norte,16804,796,,,,,,,,0,0
 04-06-2020,norte,16819,801,,,,,,,,0,0
 05-06-2020,norte,16834,803,,,,,,,,0,0
+06-06-2020,norte,16855,804,,,,,,,,0,0
