@@ -101,6 +101,9 @@ date,nut,cases_confirmed,deaths,recuperados_arsnorte,recuperados_arscentro,recup
 08-06-2020,acores,142,15,,,,,,,,14,19
 09-06-2020,acores,142,15,,,,,,,,16,20
 10-06-2020,acores,142,15,,,,,,,,10,15
+11-06-2020,acores,143,15,,,,,,,,14,12
+12-06-2020,acores,143,15,,,,,,,,14,11
+13-06-2020,acores,143,15,,,,,,,,14,11
 01-03-2020,alentejo,0,0,,,,,,,,,
 02-03-2020,alentejo,0,0,,,,,,,,,
 03-03-2020,alentejo,0,0,,,,,,,,,
@@ -203,6 +206,9 @@ date,nut,cases_confirmed,deaths,recuperados_arsnorte,recuperados_arscentro,recup
 08-06-2020,alentejo,268,1,,,,,,,,14,19
 09-06-2020,alentejo,273,1,,,,,,,,16,20
 10-06-2020,alentejo,274,1,,,,,,,,10,15
+11-06-2020,alentejo,277,1,,,,,,,,14,12
+12-06-2020,alentejo,277,1,,,,,,,,14,11
+13-06-2020,alentejo,281,2,,,,,,,,14,11
 01-03-2020,algarve,0,0,,,,,,,,,
 02-03-2020,algarve,0,0,,,,,,,,,
 03-03-2020,algarve,0,0,,,,,,,,,
@@ -305,6 +311,9 @@ date,nut,cases_confirmed,deaths,recuperados_arsnorte,recuperados_arscentro,recup
 08-06-2020,algarve,389,15,,,,,,,,14,19
 09-06-2020,algarve,389,15,,,,,,,,16,20
 10-06-2020,algarve,391,15,,,,,,,,10,15
+11-06-2020,algarve,391,15,,,,,,,,14,12
+12-06-2020,algarve,393,15,,,,,,,,14,11
+13-06-2020,algarve,393,15,,,,,,,,14,11
 01-03-2020,centro,0,0,,,,,,,,,
 02-03-2020,centro,0,0,,,,,,,,,
 03-03-2020,centro,1,0,,,,,,,,,
@@ -407,6 +416,9 @@ date,nut,cases_confirmed,deaths,recuperados_arsnorte,recuperados_arscentro,recup
 08-06-2020,centro,3826,244,,,,,,,,14,19
 09-06-2020,centro,3837,244,,,,,,,,16,20
 10-06-2020,centro,3837,245,,,,,,,,10,15
+11-06-2020,centro,3841,246,,,,,,,,14,12
+12-06-2020,centro,3846,246,,,,,,,,14,11
+13-06-2020,centro,3868,246,,,,,,,,14,11
 01-03-2020,lvt,0,0,,,,,,,,,
 02-03-2020,lvt,0,0,,,,,,,,,
 03-03-2020,lvt,1,0,,,,,,,,,
@@ -509,6 +521,9 @@ date,nut,cases_confirmed,deaths,recuperados_arsnorte,recuperados_arscentro,recup
 08-06-2020,lvt,13222,403,,,,,,,,14,19
 09-06-2020,lvt,13608,408,,,,,,,,16,20
 10-06-2020,lvt,13878,412,,,,,,,,10,15
+11-06-2020,lvt,14161,417,,,,,,,,14,12
+12-06-2020,lvt,14407,417,,,,,,,,14,11
+13-06-2020,lvt,14622,422,,,,,,,,14,11
 01-03-2020,madeira,0,0,,,,,,,,,
 02-03-2020,madeira,0,0,,,,,,,,,
 03-03-2020,madeira,0,0,,,,,,,,,
@@ -611,6 +626,9 @@ date,nut,cases_confirmed,deaths,recuperados_arsnorte,recuperados_arscentro,recup
 08-06-2020,madeira,90,0,,,,,,,,14,19
 09-06-2020,madeira,90,0,,,,,,,,16,20
 10-06-2020,madeira,90,0,,,,,,,,10,15
+11-06-2020,madeira,90,0,,,,,,,,14,12
+12-06-2020,madeira,90,0,,,,,,,,14,11
+13-06-2020,madeira,90,0,,,,,,,,14,11
 01-03-2020,norte,0,0,,,,,,,,,
 02-03-2020,norte,2,0,,,,,,,,,
 03-03-2020,norte,2,0,,,,,,,,,
@@ -713,3 +731,6 @@ date,nut,cases_confirmed,deaths,recuperados_arsnorte,recuperados_arscentro,recup
 08-06-2020,norte,16948,807,,,,,,,,14,19
 09-06-2020,norte,16967,809,,,,,,,,16,20
 10-06-2020,norte,16988,809,,,,,,,,10,15
+11-06-2020,norte,17007,810,,,,,,,,14,12
+12-06-2020,norte,17024,811,,,,,,,,14,11
+13-06-2020,norte,17066,812,,,,,,,,14,11
